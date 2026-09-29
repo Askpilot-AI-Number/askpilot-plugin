@@ -1,0 +1,24 @@
+{
+  "name": "askpilot",
+  "displayName": "Askpilot",
+  "version": "1.0.0",
+  "description": "Let your AI run your business workflows.",
+  "author": {
+    "name": "Askpilot",
+    "email": "support@askpilot.com",
+    "url": "https://askpilot.com"
+  },
+  "homepage": "https://askpilot.com/docs/mcp.html",
+  "license": "MIT",
+  "keywords": [
+    "workflow automation",
+    "ai agents",
+    "business workflows",
+    "follow-ups",
+    "invoice chasing",
+    "lead follow-up",
+    "whatsapp",
+    "outlook",
+    "crm"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "askpilot": {
+      "type": "http",
+      "url": "https://mcp.askpilot.com/mcp"
+    }
+  }
+}
