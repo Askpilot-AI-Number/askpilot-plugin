@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "askpilot",
+  "version": "1.0.0",
+  "description": "Let your AI run your business workflows.",
+  "author": {
+    "name": "Askpilot",
+    "email": "support@askpilot.com",
+    "url": "https://askpilot.com"
+  },
+  "homepage": "https://askpilot.com/docs/mcp.html",
+  "license": "MIT",
+  "keywords": [
+    "workflow automation",
+    "ai agents",
+    "business workflows",
+    "follow-ups",
+    "invoice chasing",
+    "lead follow-up",
+    "whatsapp",
+    "outlook",
+    "crm"
+  ],
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "Askpilot",
+        "shortDescription": "Workflow automation for agents",
+        "longDescription": "Askpilot is the workflow automation infrastructure for your AI agent. Describe a business workflow to your AI agent, such as qualifying leads, chasing unpaid invoices or collecting documents, and it sets it up in Askpilot with your tools, triggers and files. Askpilot then runs it from start to finish: it starts on events from your tools, follows up at the right time, asks you before the steps you choose, and keeps every run on record. You can also ask your AI agent to start a workflow on demand, or to review past runs and make them better.",
+        "developerName": "Askpilot",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://askpilot.com",
+        "privacyPolicyURL": "https://askpilot.com/legal.html#privacy-policy",
+        "termsOfServiceURL": "https://askpilot.com/legal.html",
+        "defaultPrompt": [
+          "What could Askpilot automate for my business? Show me examples like mine",
+          "Help me automate chasing unpaid invoices until they are paid",
+          "Turn how we follow up new leads into a workflow that runs on its own"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
